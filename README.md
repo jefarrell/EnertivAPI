@@ -15,6 +15,6 @@ ___
 
 
 
-
+___
 
 Original 'client.js' version was originated by [Tom Igoe](github.com/tigoe), which also lives [here](https://github.com/tigoe/NodeExamples/tree/master/EnertivClient).  The updated code here is based off of his initial work, and developed in collaboration with him.  
