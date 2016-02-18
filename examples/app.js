@@ -47,7 +47,7 @@ app.get('/client', function (req,res){
 	var apiClient = c.apiCall('/api/client/', function (apiClient){
 		var clientInfo = JSON.parse(apiClient);
 		clientData.uuid = clientInfo[0].id;
-	    clientData.locationID = clientInfo[0].locations[0];
+	    	clientData.locationID = clientInfo[0].locations[0];
 		res.send(clientData);
 	});
 	
