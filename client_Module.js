@@ -1,8 +1,6 @@
 /*
   HTTP/HTTPS request example to Enertiv
-  Does basic Oauth2 exchange to get access token
-  then makes first API request with the token.
-  This is a quick-and-dirty solution, and should be improved upon.
+  Includes methods to login, save token, and make general API requests.
   You'll need to add a file, cred.js, to the same directory as this file,
   with the following in it:
 
