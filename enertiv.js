@@ -19,7 +19,6 @@
 var https = require('https');
 var querystring = require('querystring');
 var cred = require('./cred.js');
-var clientData;
 
 // Bring in login information from our cred file
 var loginData = querystring.stringify({
