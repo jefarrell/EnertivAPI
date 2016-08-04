@@ -1,9 +1,7 @@
 /*
-  HTTP/HTTPS request example to Enertiv
-  Includes methods to login, save token, and make general API requests.
+  HTTPS request example to Enertiv
   You'll need to add a file, cred.js, to the same directory as this file,
   with the following in it:
-
   var creds = {
       username : your_username,
       password : your_password,
@@ -11,6 +9,7 @@
       clientSecret : your_client_secret
   }
   module.exports = creds;
+
 
   created 25 Feb 2015 by Tom Igoe
   updated 06 Jan 2016 by John Farrell
